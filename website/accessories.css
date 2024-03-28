@@ -1,0 +1,37 @@
+#mainCont{
+    display:grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    margin: 10vh 14vw;
+    padding: 3vw;
+    border: 0.2vw solid #dc0000;
+}
+#mainCont img{
+    width: 30vw;
+}
+#mainCont a{
+    background-color: #272727;
+    padding: 1vh;
+    border: transparent 0.2vw solid;
+}
+#mainCont a:hover{
+    border: #dc0000 0.2vw solid;
+    transform: scale(1.07);
+}
+a{
+    text-decoration: none;
+}
+@media (max-width:800px){
+    #mainCont{
+        margin: 3vh 10vw;
+        grid-template-columns: auto;
+    }
+    #mainCont img{
+        width: 60vw;
+    }
+    #mainCont h2{
+        font-size: 5vw;
+    }
+}

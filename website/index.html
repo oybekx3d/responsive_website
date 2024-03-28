@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="index.css">
+    <script src="global.js"></script>
+    <script src="index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PC Builds</title>
+</head>
+<body>
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <ul>
+          <li><a href='index.html'>Home</a></li>
+          <li><a href='gaming.html'>Gaming Builds</a></li>
+          <li><a href="creator.html">Content Creator Systems</a></li>
+          <li><a href='accessories.html'>Accessories</a></li>
+          <li><a href='about.html'>About</a></li>
+        </ul>
+      </nav>
+      <div id="main-banner">
+        <h1>Best PC Builds</h1>
+        <div style="height: 0px;border-bottom: #dc0000 solid; margin: 2vh 0;">
+        </div>
+          <h2>For Every Budget</h2>
+          <h2>Pure performance, without any commission or fees</h2>
+      </div>
+      <div id="popularToggle">
+        <h1 style="margin-bottom: 2vh;">Popular Builds</h1>
+        <div class="customCheckBoxHolder">
+          <input type="checkbox" id="cCB1" class="customCheckBoxInput">
+          <label for="cCB1" class="customCheckBoxWrapper">
+              <div class="customCheckBox" onclick="togglePopular()">
+                  <div class="inner"  ><h2 id="showhide">Show/Hide</h2></div>
+              </div>
+          </label>
+        </div>
+      </div>
+      <div style="display: flex;justify-content: center;">
+        <div id="featured-builds">
+          <a href="">
+            <div class="mainBuildCont">
+              <h1>Popular</h1>
+              <img src="img/pc.png" alt="Image of a Gaming Computer">
+              <h2>1500$</h2>
+              <h3>4K Gaming PC</h3>
+            </div>
+          </a>
+          <a href="">
+            <div class="mainBuildCont">
+            <h1>Popular</h1>
+            <img src="img/pc.png" alt="Image of a Gaming Computer">
+            <h2>1500$</h2>
+            <h3>4K Gaming PC</h3>
+          </div>
+        </a>
+          <a href="">
+            <div class="mainBuildCont">
+              <h1>Popular</h1>
+              <img src="img/pc.png" alt="Image of a Gaming Computer">
+              <h2>1500$</h2>
+              <h3>4K Gaming PC</h3>
+            </div>
+          </a>
+          <a href="">
+            <div class="mainBuildCont">
+              <h1>Popular</h1>
+              <img src="img/pc.png" alt="Image of a Gaming Computer">
+              <h2>1500$</h2>
+              <h3>4K Gaming PC</h3>
+            </div>
+          </a>
+          <a href="">
+            <div class="mainBuildCont">
+              <h1>Popular</h1>
+              <img src="img/pc.png" alt="Image of a Gaming Computer">
+              <h2>1500$</h2>
+              <h3>4K Gaming PC</h3>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div id="mainWordCont">
+        <div class="mainWords">
+          <div>
+            <h1>Best Possible Performance for your Money</h1>
+            <div class="shopnowbutt">
+              <div id="al01">
+              <a href="gaming.html"><button>Gaming</button></a>
+              <a href="creator.html"><button>Creator</button></a>
+              </div>
+            </div>
+          </div>
+          <img src="img/pc.png" alt="Image of a Gaming PC">
+        </div>
+        <div class="mainWords" id="wordMb">
+          <div class="shopnowbutt">
+            <h1>Best Peripherals for Your Desk</h1>
+            <a href="peripherals.html">
+              <button>
+                Check out
+              </button>
+            </a>
+          </div>
+          <img src="img/gamingpc.png" alt="Image of a Gaming Monitor">
+        </div>
+        <div class="mainWords" id="wordPC">
+          <img src="img/gamingpc.png" alt="Image of a Gaming Monitor">
+          <div class="shopnowbutt">
+            <h1>Best Peripherals for Your Desk</h1>
+            <a href="peripherals.html">
+              <button>
+                Check out
+              </button>
+            </a>
+          </div>
+        </div>
+        <div class="mainWords">
+          <div class="shopnowbutt">
+            <h1>Useful Accessories for Your PC</h1>
+            <a href="peripherals.html">
+              <button>
+                Check out
+              </button>
+            </a>
+          </div>
+          <img src="img/capturecard.png" alt="Image of a Gaming PC">
+        </div>
+      </div>
+      <div id="footer">
+        <div>
+          <img src="img/putimghere.png" alt="Logo">
+          <h4>A Website maintained by a single person in hopes of helping other people get the best 
+            PC for their money as well as help them find good deals and recommend useful accessories</h4>
+        </div>
+        <div id="flexrow">
+          <div>
+            <h3>Other Projects</h3>
+            <a href=""><h4>Portfolio</h4></a>
+            <a href=""><h4>Link</h4></a>
+            <a href=""><h4>Link</h4></a>
+            <a href=""><h4>Link</h4></a>
+            <a href=""><h4>Link</h4></a>
+          </div>
+          <div>
+            <h3>Services</h3>
+            <a href="">
+              <h4>Freelancer Web Developer</h4>
+            </a>
+            <a href="">
+              <h4>Freelancer Video Editor</h4>
+            </a>
+            <a href="">
+              <h4>Custom PC build consulting</h4>
+            </a>          
+          </div>
+        </div>
+        <div>
+          <h3>Links</h3>
+          <div id="socialCont">
+            <button class="socialButton" id="linkPortfolio">Portfolio</button>
+            <button class="socialButton" id="linkGithub">GitHub</button>
+            <button class="socialButton" id="linkYt">Youtube</button>
+            <button class="socialButton" id="linkDiscord">Discord</button>
+            <button class="socialButton" id="linkInsta">Instagram</button>
+          </div>
+          <div id="donations">
+            <h3>Donations</h3>
+            <button>Donate</button>
+          </div>
+        </div>
+      </div>
+      <h3 id="fnt">Website made by Oybek Qodirverdiyev</h3>
+</body>
+</html>
