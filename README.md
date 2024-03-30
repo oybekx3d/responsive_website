@@ -1,3 +1,3 @@
 # responsive_website
 
-https://oybekx3d.github.io/responsive_website/website/index.html
+https://oybekx3d.github.io/responsive_website
