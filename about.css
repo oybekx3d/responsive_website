@@ -1,0 +1,31 @@
+#mCont{
+    display: flex;
+    flex-direction: column;
+    border: #dc0000 0.2vw solid;
+    margin: 3vh 5vw;
+    color: white;
+    padding: 1.5vw;
+}
+#mCont h1{
+    font-size: 8vw;
+}
+#innerCont{
+    display: grid;
+    grid-template-columns: auto;
+    gap: 3vw;
+}
+#textImg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 2vw;
+}
+#textImg img{
+    width: 30vw;
+}
+#textImg h4{
+    font-size: 4vw;
+}
+#textImg h5{
+    font-size: 3vw;
+}

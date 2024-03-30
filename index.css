@@ -1,0 +1,323 @@
+#main-banner{
+    display: flex;
+    flex-direction: column;
+    background-color: #1f1f1f;
+    border-radius: 0.2vw;
+    margin: 3vw 14vw;
+    text-align: center;
+    padding: 3vw 3vw;
+    border: transparent 0.2vw solid;
+}
+#main-banner:hover{
+    border: #dc0000 0.2vw solid;
+}
+#featured-builds{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: #272727;
+    border: #dc0000 solid 0.2vw;
+    border-radius: 0.2vw;
+    gap: 1vw;
+    width: max-content;
+}
+a{
+    text-decoration: none;
+}
+#showhide{
+    font-size: 2vh;
+}
+.mainBuildCont{
+    position: relative;
+    top: 0;
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16vw;
+    padding: 0.4vw; 
+    border: transparent 0.2vw solid; 
+    border-radius: 0.2vw;
+    margin: 0.5vw;
+    transition: all 0.2s;
+}
+#popularToggle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2vw;
+}
+#popularToggle h3{
+    display: none;
+    padding-bottom: 1vh;
+    color: white;
+    font-size: 3vh;
+}
+.mainBuildCont:hover{
+    transform: scale(1.07);
+    top: -3.7vh;
+    border: #dc0000 0.2vw solid;
+    background-color: #1f1f1f;
+}
+.mainBuildCont h1{
+    font-size: 3vw;
+    text-shadow: 5px 3px 3px rgba(0,0,0,0.56);
+}
+.mainBuildCont h2{
+    font-size: 2.5vw;
+    text-shadow: 5px 3px 3px rgba(0,0,0,0.56);
+}
+.mainBuildCont h3{
+    color: #dc0000;
+    font-size: 2vw;
+    text-shadow: 5px 3px 3px rgba(0,0,0,0.56);
+}
+.mainBuildCont img{
+    width: 16vw;
+}
+#mainWordCont{
+    margin: 5vh 10vw;
+    display: flex;
+    flex-direction: column;
+    column-gap: 0;
+    background-color: #1f1f1f;
+    padding: 3vw;
+}
+.mainWords{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.mainWords h1{
+    flex-basis: 50%;
+    font-size: 4vw;
+    text-shadow: 5px 3px 3px rgba(0,0,0,0.56);
+}
+.mainWords h1:hover{
+    text-shadow: 18px 13px 15px rgba(0, 0, 0, 0.77)
+}
+.mainWords img{
+    position: relative;
+    top: 0;
+    margin: 0;
+    flex-basis: 20%;
+    width: 25vw;
+    transition: all 0.2s;
+}
+.mainWords img:hover{
+    top: -1vh;
+}
+#wordMb{
+    display: none;
+}
+#wordPC{
+    display: flex;
+}
+.shopnowbutt{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2vh 0;
+}
+
+#al01{
+    display: flex;
+    flex-direction: row;
+    column-gap: 3vw;
+    justify-content: space-around;
+}
+.shopnowbutt button {
+    margin-top: 2vh;
+    position: relative;
+    width: 10em;
+    height: 2em;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 300;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    background-color: rgba(3, 3, 3, .5);
+    border: none;
+    transition: color .2s linear,
+          box-shadow .3s linear,
+          background-color .3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  
+  .shopnowbutt button:focus,
+  .shopnowbutt button:hover {
+    box-shadow: 0 0 110px #dc0000;
+    background-color: #000000;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .shopnowbutt button:focus:before,
+  .shopnowbutt button:hover:before,
+  .shopnowbutt button:focus:after,
+  .shopnowbutt button:hover:after {
+    width: 100%;
+    left: 0%;
+  }
+  
+  .shopnowbutt button:before,
+  .shopnowbutt button:after {
+    content: '';
+    position: absolute;
+    pointer-events: none;
+    left: 50%;
+    width: 0%;
+    height: 2px;
+    background-color: #dc0000;
+    transition: width, left, 250ms cubic-bezier(0.25, .8, .25, 1);
+  }
+  
+  .shopnowbutt button:before {
+    top: -2px;
+  }
+  
+  .shopnowbutt button:after {
+    bottom: -2px;
+  }
+.customCheckBoxHolder {
+    margin: 5px;
+    display: none;
+  }
+  
+  .customCheckBox {
+    width: fit-content;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+    padding: 2px 8px;
+    background-color: #dc0000;
+    border-radius: 0px;
+    color: rgba(255, 255, 255, 0.7);
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 300ms;
+    transition-property: color, background-color, box-shadow;
+    display: flex;
+    height: 32px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px 1px 1px 0px;
+    outline: none;
+    justify-content: center;
+    min-width: 55px;
+  }
+  
+  .customCheckBox:hover {
+    background-color: #dc0000;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px -4px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px -1px 1px 0px, rgba(0, 0, 0, 0.17) 0px 2px 4px 1px;
+  }
+  
+  .customCheckBox .inner {
+    font-size: 18px;
+    font-weight: 900;
+    pointer-events: none;
+    transition-timing-function: cubic-bezier(0.25, 0.8, 0.25, 1);
+    transition-duration: 300ms;
+    transition-property: transform;
+    transform: translateY(0px);
+  }
+  
+  .customCheckBox:hover .inner {
+    transform: translateY(-2px);
+  }
+  
+  .customCheckBoxWrapper:first-of-type .customCheckBox {
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-right: 0px;
+  }
+  
+  .customCheckBoxWrapper:last-of-type .customCheckBox {
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border-left: 0px;
+  }
+  
+  .customCheckBoxInput {
+    display: none;
+  }
+  
+  .customCheckBoxInput:checked + .customCheckBoxWrapper .customCheckBox {
+    background-color: green;
+    color: white;
+    box-shadow: rgba(0, 0, 0, 0.23) 0px -4px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px -1px 1px 0px, rgba(0, 0, 0, 0.17) 0px 2px 4px 1px;
+  }
+  
+  .customCheckBoxInput:checked + .customCheckBoxWrapper .customCheckBox .inner {
+    transform: translateY(-2px);
+  }
+  
+  .customCheckBoxInput:checked + .customCheckBoxWrapper .customCheckBox:hover {
+    background-color: green;
+    box-shadow: rgba(0, 0, 0, 0.26) 0px -4px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px -1px 1px 0px, rgba(0, 0, 0, 0.15) 0px 3px 6px 2px;
+  }
+  
+  .customCheckBoxWrapper .customCheckBox:hover .inner {
+    transform: translateY(-2px);
+  }
+  
+@media (max-width:800px){
+    #main-banner{
+        margin: 3vw 4vw;
+    }
+    #main-banner h1{
+        font-size: 5vh;
+    }
+    #main-banner h2{
+        font-size: 3vh;
+    }
+    #featured-builds{
+        grid-template-columns: auto;
+    }
+    .mainBuildCont{
+        width: 90vw;
+    }
+    .mainBuildCont img{
+        width: 85vw;
+    }
+    .mainBuildCont h1{
+        font-size: 4vh;
+    }
+    .mainBuildCont h2{
+        font-size: 3.5vh;
+    }
+    .mainBuildCont h3{
+        font-size: 3vh;
+    }
+    #mainWordCont{
+        margin: 1vh 2vw;
+    }
+    .mainWords{
+        flex-direction: column;
+    }
+    .mainWords h1{
+        font-size: 4vh;
+    }
+    .mainWords img{
+        margin: 5vh;
+        width: 80vw;
+    }
+    #wordPC{
+        display: none;
+    }
+    #wordMb{
+        display: flex;
+    }
+    .shopnowbutt button{
+        font-size: 1.5vh;
+    }
+    .customCheckBoxHolder{
+        display: flex;
+    }
+    #popularToggle h3{
+        display: inline;
+    }
+}
