@@ -3,7 +3,7 @@
         "itemID":"captureCard",
         "itemName": "Capture Card",
         "itemDescription":"A Capture Card is an expansion card that allows you to record your Computers screen in high quality without losing single bit of performance. It is placed in a PCIe slot and slot size varies by the quality the card records your screen at.",
-        "itemImgLink":"./img/capturecard.png",
+        "itemImgLink":"./img/captureCard.png",
         "itemBuyLink":"www.google.com",
         "itemPrice":"69$"
     },
