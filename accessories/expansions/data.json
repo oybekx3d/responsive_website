@@ -1,0 +1,42 @@
+{
+    "captureCard":{
+        "itemID":"captureCard",
+        "itemName": "Capture Card",
+        "itemDescription":"A Capture Card is an expansion card that allows you to record your Computers screen in high quality without losing single bit of performance. It is placed in a PCIe slot and slot size varies by the quality the card records your screen at.",
+        "itemImgLink":"/img/capturecard.png",
+        "itemBuyLink":"www.google.com",
+        "itemPrice":"69$"
+    },
+    "ethernetExpansionCard":{
+        "itemID":"ethernetExpansionCard",
+        "itemName": "Ethernet Expansion Card",
+        "itemDescription":"A Capture Card is an expansion card that allows you to record your Computers screen in high quality without losing single bit of performance. It is placed in a PCIe slot and slot size varies by the quality the card records your screen at.",
+        "itemImgLink":"/img/ethernetSlotExpansion.webp",
+        "itemBuyLink":"www.google.com",
+        "itemPrice":"69$"
+    },
+    "m2SlotExpansionCard":{
+        "itemID":"m2SlotExpansionCard",
+        "itemName": "M2 Slot Expansion Card",
+        "itemDescription":"A Capture Card is an expansion card that allows you to record your Computers screen in high quality without losing single bit of performance. It is placed in a PCIe slot and slot size varies by the quality the card records your screen at.",
+        "itemImgLink":"/img/m2SlotExpansionCard.webp",
+        "itemBuyLink":"www.google.com",
+        "itemPrice":"69$"
+    },
+    "sataPortExpansionCard":{
+        "itemID":"sataPortExpansionCard",
+        "itemName": "SATA Port Expansion Card",
+        "itemDescription":"A Capture Card is an expansion card that allows you to record your Computers screen in high quality without losing single bit of performance. It is placed in a PCIe slot and slot size varies by the quality the card records your screen at.",
+        "itemImgLink":"/img/sataPortExpansionCard.webp",
+        "itemBuyLink":"www.google.com",
+        "itemPrice":"69$"
+    },
+    "usbPortExpansionCard":{
+        "itemID":"usbPortExpansionCard",
+        "itemName": "USB Port Expansion Card",
+        "itemDescription":"A Capture Card is an expansion card that allows you to record your Computers screen in high quality without losing single bit of performance. It is placed in a PCIe slot and slot size varies by the quality the card records your screen at.",
+        "itemImgLink":"/img/usbPortExpansionCard.webp",
+        "itemBuyLink":"www.google.com",
+        "itemPrice":"69$"
+    }
+}

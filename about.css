@@ -22,6 +22,10 @@
 }
 #textImg img{
     width: 30vw;
+    transition: all 0.2s;
+}
+#textImg img:hover{
+    transform: scale(1.06);
 }
 #textImg h4{
     font-size: 4vw;

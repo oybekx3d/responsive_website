@@ -272,10 +272,13 @@ body *{
 #flexrow{
 	flex-direction: row !important;
 }
-* h5, * h4{
+#red-text{
+    color: #DC0000!important;
+}
+* h5, * h4, * h3{
     text-shadow: 5px 3px 3px rgba(0,0,0,0.56);
 }
-h5:hover, h4:hover{
+h5:hover, h4:hover, h3:hover{
     text-shadow: 18px 13px 15px rgba(0, 0, 0, 0.77)
 }
 @media screen and (max-width: 1221px){

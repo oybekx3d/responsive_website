@@ -3,7 +3,6 @@ function updateJson(id){
     fetch(jsonName)
     .then(response => response.json())
     .then(data => {
-        jsonData = data;
         document.getElementById("cpu").innerText = data.cpu;
         document.getElementById("cpuCooler").innerText = data.cpuCooler;
         document.getElementById("mobo").innerText = data.mobo;

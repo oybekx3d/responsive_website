@@ -18,9 +18,10 @@ a{
     flex-direction: column;
     border: 0.2vw solid transparent; 
     transition: all 0.2s;
-    background-color: #1f1f1f;
+    background-color: #272727;
 }
 .buildCont div:hover{
+    background-color: #1f1f1f;
     border: #dc0000 0.2vw solid;
     transform: scale(1.05);
     z-index: 2;
@@ -34,7 +35,7 @@ a{
 #mainCont{
     border: #dc0000 0.2vw solid;
     margin: 5vh 5vw;
-    background-color: #1f1f1f;
+    background-color: #272727;
 }
 #mainCont h1{
     margin-bottom: 3vh;

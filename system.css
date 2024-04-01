@@ -121,9 +121,6 @@
     padding: 0.5vw;
     font-size: 1.3vw;
 }
-#red-text{
-    color: #DC0000!important;
-}
 
 #pc-info h4:hover, #benchmarks h5:hover, #sec-right button:hover{
     cursor: default;

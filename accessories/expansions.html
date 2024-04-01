@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../global.css">
-    <link rel="stylesheet" href="../accessories2.css">
+    <link rel="stylesheet" href="../accessoriesInner.css">
     <script src="../global.js"></script>
+    <script src="accessories.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Expansions for PC</title>
 </head>
-  <body>
+  <body onload="loadPage()">
       <nav id='menu'>
           <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
           <ul>
@@ -22,28 +23,37 @@
         <div id="mCont">
             <h1>Expansion Accessories</h1>
             <div id="innerCont">
-                <a id="sCont">
-                    <img src="../img/capturecard.png" alt="">
-                    <h3>Capture Card</h3>
-                </a>
-                <a id="sCont">
-                    <img src="../img/pcie-to-ethernet.webp" alt="">
-                    <h3>Ethernet Expansion Card</h3>
-                </a>
-                <a id="sCont">
-                    <img src="../img/pcie-to-m2.webp" alt="">
-                    <h3>M2 Slot Expansion Card</h3>
-                </a>
-                <a id="sCont">
-                    <img src="../img/pcie-to-sata.webp" alt="">
-                    <h3>Sata Port Expansion Card</h3>
-                </a>
-                <a id="sCont">
-                    <img src="../img/pcie-to-usb.webp" alt="">
-                    <h3>USB Port Expansion Card</h3>
-                </a>
+              
             </div>
         </div>
+        <div id="popUp">
+          <div id="popUpmCont">
+            <div id="lCont">
+              <h4 id="red-text">Image</h4>
+              <img src="" alt="" id="itemImgLink">
+              <div id="priceCont">
+                <h4 id="red-text">Price</h4>
+                <h2 id="itemPrice"></h2>
+              </div>
+            </div>
+            <div id="rCont">
+              <h3 id="red-text">Item</h3>
+              <h1 id="itemName"></h1>
+              <h3 id="red-text">Description</h3>
+              <h2 id="itemDescription"></h2>
+            </div>
+          </div>
+          <div>
+            <a href="" target="_blank" id="itemBuyLink"><button>Buy</button></a>
+            <button onclick="closePopUp()">Close</button>
+          </div>
+        </div>
+
+
+
+
+
+
       <div id="footer">
         <div>
           <img src="../img/putimghere.png" alt="Logo">
